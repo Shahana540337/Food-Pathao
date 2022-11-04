@@ -20,14 +20,14 @@ a{
 	text-decoration: none;
 }
 						/*--================ Start Header Part ================--*/
-header{
+#header{
 	background: url(../images/banner.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
 	background-position: bottom;
 }
 
-header nav{
+#header nav{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -36,37 +36,37 @@ header nav{
 	box-sizing: border-box;
 }
 
-header nav ul{
+#header nav ul{
 	display: flex;
 	justify-content: space-between;
 }
 
-header nav ul a li{
+#header nav ul a li{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	transition: .4s;
 }
 
-header nav ul a li:hover{
+#header nav ul a li:hover{
 	color: #d50c0d;
 }
 
-header nav .nav-logo{
+#header nav .nav-logo{
 	width: 30%;
 	text-align: left;
 }
 
-header nav .nav-logo img{
+#header nav .nav-logo img{
 	width: 120px;
 	height: 100px;
 }
 
-header nav .nav-bar{
+#header nav .nav-bar{
 	width: 50%;
 	text-align: center;
 }
 
-header nav .nav-icon{
+#header nav .nav-icon{
 	width: 7%;
 	text-align: right;
 	display: flex;
@@ -74,24 +74,24 @@ header nav .nav-icon{
 	align-items: center;
 }
 
-header nav .nav-icon .line{
+#header nav .nav-icon .line{
 	height: 20px;
 	width: 2px;
 	background: #d50c0d;
 }
 
-header nav .nav-icon i{
+#header nav .nav-icon i{
 	color: #fff;
 }
 
-header .banner{
+#header .banner{
 	width: 100%;
 	text-align: center;
-	padding: 100px 50px 110px 50px;
+	padding: 100px 50px 130px 50px;
 	box-sizing: border-box;
 }
 
-header .banner h1{
+#header .banner h1{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700px;
@@ -99,20 +99,20 @@ header .banner h1{
 	margin: 0 auto;
 }
 
-header .banner form{
+#header .banner form{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	margin-top: 50px;
 }
 
-header .banner form .form{
+#header .banner form .form{
 	width: 85%;
 	display: flex;
 	justify-content: space-between;
 }
 
-header .banner form input{
+#header .banner form input{
 	width: 100%;
 	padding: 15px 30px;
 	box-sizing: border-box;
@@ -120,17 +120,19 @@ header .banner form input{
 	background: #fff;
 	border: none;
 	border-radius: 7px;
+	outline: none;
+
 }
 
-header .banner form .information{
+#header .banner form .information{
 	width: 49%;
 }
 
-header .banner form .search-bar{
+#header .banner form .search-bar{
 	width: 10%;
 }
 
-header .banner form .search-bar a{
+#header .banner form .search-bar a{
 	display: inline-block;
 	color: #000;
 	padding: 10px 30px;
@@ -141,12 +143,12 @@ header .banner form .search-bar a{
 	font-family: 'Open Sans', sans-serif;
 }
 
-header .banner form .search-bar a:hover{
+#header .banner form .search-bar a:hover{
 	color: #fff;
 	background: #888;
 }
 
-header .banner img{
+#header .banner img{
 	margin-top: 30px;
 }
 						/*--================ End Header Part ================--*/
@@ -238,19 +240,19 @@ header .banner img{
 	justify-content: center;
 }
 
-#popular-food .food-menus .menu .details ul .first a i{
-	color: #fde101;
+#popular-food .food-menus .menu .details ul a{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	margin-top: 10px;
 	margin-right: 5px;
 }
 
-#popular-food .food-menus .menu .details ul .last a i{
+#popular-food .food-menus .menu .details ul .first a{
+	color: #fde101;
+}
+
+#popular-food .food-menus .menu .details ul .last a{
 	color: #fcf5b5;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	margin-top: 10px;
 }
 
 #popular-food .food-menus .menu .details p{
@@ -552,35 +554,35 @@ header .banner img{
 
 
 						/*--================ Start Footer Part ================--*/
-footer{
+#footer{
 	width: 100%;
 	background: #282c35;
 	padding: 40px;
 	box-sizing: border-box;
 }
-footer .footer_parts{
+#footer .footer_parts{
 	display: flex;
 	justify-content: space-between;
 }
-footer .footer_parts .part{
+#footer .footer_parts .part{
 	width: 24%;
 }
-footer .footer_title{
+#footer .footer_title{
 	padding: 10px 0;
 	box-sizing: border-box;
 	border-bottom: 1px solid #cdcdcd;
 }
-footer .footer_title h2{
+#footer .footer_title h2{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 18px;
 }
-footer .footer_parts .part .details{
+#footer .footer_parts .part .details{
 	width: 100%;
 	margin-top: 30px;
 }
-footer .footer_parts .part .details ul .locations_and_cuisines a li{
+#footer .footer_parts .part .details ul .locations_and_cuisines a li{
 	color: #cdcdcd;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -588,20 +590,20 @@ footer .footer_parts .part .details ul .locations_and_cuisines a li{
 	transition: .5s;
 	margin-bottom: 10px;
 }
-footer .footer_parts .part .details ul .locations_and_cuisines a li:hover{
+#footer .footer_parts .part .details ul .locations_and_cuisines a li:hover{
 	transform: translateX(10%);
 	color: #d50c0d;
 }
-footer .footer_parts .part .details .menu{
+#footer .footer_parts .part .details .menu{
 	display: flex;
 	color: #cdcdcd;
 }
-footer .footer_parts .part .details .menu i{
+#footer .footer_parts .part .details .menu i{
 	margin-right: 10px;
 	
 }
 
-footer .footer_parts .part .details ul .menu a li{
+#footer .footer_parts .part .details ul .menu a li{
 	color: #cdcdcd;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -609,18 +611,18 @@ footer .footer_parts .part .details ul .menu a li{
 	transition: .5s;
 	margin-bottom: 10px;
 }
-footer .footer_parts .part .details ul .menu:hover{
+#footer .footer_parts .part .details ul .menu:hover{
 	color: #d50c0d;
 }
-footer .footer_parts .part .details ul .menu a li:hover{
+#footer .footer_parts .part .details ul .menu a li:hover{
 	color: #d50c0d;
 }
-footer .footer_parts .part .details .information .information_icon{
+#footer .footer_parts .part .details .information .information_icon{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 15px;
 }
-footer .footer_parts .part .details .information .information_icon i{
+#footer .footer_parts .part .details .information .information_icon i{
 	height: 30px;
 	width: 30px;
 	line-height: 30px;
@@ -630,18 +632,18 @@ footer .footer_parts .part .details .information .information_icon i{
 	color: #fff;
 	transition: .4s;
 }
-footer .footer_parts .part .details .information .information_icon i:hover{
+#footer .footer_parts .part .details .information .information_icon i:hover{
 	background: #fff;
 	color: #d50c0d;
 }
-footer .footer_parts .part .details .information .contact{
+#footer .footer_parts .part .details .information .contact{
 	align-items: center;
 	margin-bottom: 15px;
 	display: flex;
 	transition: .4s;
 }
 
-footer .footer_parts .part .details .information .contact .contact_icon i{
+#footer .footer_parts .part .details .information .contact .contact_icon i{
 	height: 30px;
 	width: 30px;
 	line-height: 30px;
@@ -654,14 +656,8 @@ footer .footer_parts .part .details .information .contact .contact_icon i{
 	transition: .4s;
 	color: #cdcdcd;
 }
-footer .footer_parts .part .details .information .contact .contact_text p:hover{
-	color: #d50c0d;
-}
-footer .footer_parts .part .details .information .contact:hover i{
-	color: #d50c0d;
-	background: #cdcdcd;
-}
-footer .footer_parts .part .details .information .contact .contact_text p{
+
+#footer .footer_parts .part .details .information .contact .contact_text p{
 	color: #cdcdcd;
 	font-family: 'Open Sans', sans-serif;
 }
