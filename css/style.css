@@ -2,21 +2,21 @@
 	margin: 0;
 	padding: 0;
 }
-body{
-	font-family: 'Open Sans', sans-serif;
-}
+
 .container{
 	width: 1000px;
 	margin: 0 auto;
 }
+
 .clr{
 	clear: both;
 }
+
 ul,ol{
 	list-style: none;
 }
-a{/*
-	display: inline-block;*/
+
+a{
 	text-decoration: none;
 }
 						/*--================ Start Header Part ================--*/
@@ -26,6 +26,7 @@ header{
 	width: 100%;
 	background-position: bottom;
 }
+
 header nav{
 	width: 100%;
 	display: flex;
@@ -34,28 +35,37 @@ header nav{
 	padding: 20px 0;
 	box-sizing: border-box;
 }
+
 header nav ul{
 	display: flex;
 	justify-content: space-between;
 }
+
 header nav ul a li{
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	transition: .4s;
 }
+
 header nav ul a li:hover{
 	color: #d50c0d;
 }
+
 header nav .nav-logo{
 	width: 30%;
 	text-align: left;
 }
+
 header nav .nav-logo img{
-	width: 100px;
+	width: 120px;
+	height: 100px;
 }
+
 header nav .nav-bar{
 	width: 50%;
-	text-align: right;
+	text-align: center;
 }
+
 header nav .nav-icon{
 	width: 7%;
 	text-align: right;
@@ -63,25 +73,30 @@ header nav .nav-icon{
 	justify-content: space-evenly;
 	align-items: center;
 }
+
 header nav .nav-icon .line{
 	height: 20px;
 	width: 2px;
 	background: #d50c0d;
 }
+
 header nav .nav-icon i{
 	color: #fff;
 }
+
 header .banner{
 	width: 100%;
 	text-align: center;
 	padding: 100px 50px 110px 50px;
 	box-sizing: border-box;
 }
+
 header .banner h1{
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700px;
 	width: 460px;
-	margin-left: 200px;
+	margin: 0 auto;
 }
 
 header .banner form{
@@ -90,11 +105,13 @@ header .banner form{
 	justify-content: space-between;
 	margin-top: 50px;
 }
+
 header .banner form .form{
 	width: 85%;
 	display: flex;
 	justify-content: space-between;
 }
+
 header .banner form input{
 	width: 100%;
 	padding: 15px 30px;
@@ -104,12 +121,15 @@ header .banner form input{
 	border: none;
 	border-radius: 7px;
 }
+
 header .banner form .information{
 	width: 49%;
 }
+
 header .banner form .search-bar{
 	width: 10%;
 }
+
 header .banner form .search-bar a{
 	display: inline-block;
 	color: #000;
@@ -118,11 +138,14 @@ header .banner form .search-bar a{
 	background: #fff;
 	border-radius: 7px;
 	transition: .5s;
+	font-family: 'Open Sans', sans-serif;
 }
+
 header .banner form .search-bar a:hover{
 	color: #fff;
 	background: #888;
 }
+
 header .banner img{
 	margin-top: 30px;
 }
@@ -132,23 +155,28 @@ header .banner img{
 	text-align: center;
 	padding: 50px;
 }
+
 .title h1{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	font-weight: 600px;
-	font-style: italic;
+}
+.title p{
+	font-family: 'Open Sans', sans-serif;
 }
 
 
 						/*--================ Start popular-food Part ================--*/
 #popular-food .food-menus{
-width: 100%;
-padding: 20px 0;
-box-sizing: border-box;
-background: #fff;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
+	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
+
 #popular-food .food-menus .menu{
 	width: 27%;
 	background: #fff;
@@ -157,6 +185,7 @@ justify-content: space-evenly;
 	margin-bottom: 100px;
 	transition: .5s;
 }
+
 #popular-food .food-menus .menu .price{
 	height: 90px;
 	width: 90px;
@@ -164,6 +193,7 @@ justify-content: space-evenly;
 	text-align: center;
 	border-radius: 50%;
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 	background: #60ba62;
 	position: absolute;
@@ -172,50 +202,65 @@ justify-content: space-evenly;
 	transform: translate(-40%,-40%);
 	transition: .5s;
 }
+
 #popular-food .food-menus .menu .big_picture{
 	width: 100%;
 }
+
 #popular-food .food-menus .menu .big_picture img{
 	width: 100%;
 }
+
 #popular-food .food-menus .menu .details{
 	text-align: center;
 	padding: 20px;
 	box-sizing: border-box;
 }
+
 #popular-food .food-menus .menu .details .small_picture{
 	width: 100%;
 }
+
 #popular-food .food-menus .menu .details h1{
 	color: #000;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 24px;
 	transition: .4s;
 }
+
 #popular-food .food-menus .menu .details h1:hover{
 	color: #d50c0d;
 }
+
 #popular-food .food-menus .menu .details ul{
 	display: flex;
 	justify-content: center;
 }
+
 #popular-food .food-menus .menu .details ul .first a i{
 	color: #fde101;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	margin-top: 10px;
 	margin-right: 5px;
 }
+
 #popular-food .food-menus .menu .details ul .last a i{
 	color: #fcf5b5;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	margin-top: 10px;
 }
+
 #popular-food .food-menus .menu .details p{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	color: #797979;
 	margin-top: 10px;
 }
+
 #popular-food .food-menus .menu .bottom{
 	display: flex;
 	justify-content: space-between;
@@ -223,14 +268,17 @@ justify-content: space-evenly;
 	padding: 30px 20px;
 	box-sizing: border-box;
 }
+
 #popular-food .food-menus .menu .bottom a{
 	display: inline-block;
 	color: #959595;
 	transition: .5s;
 }
+
 #popular-food .food-menus .menu .bottom .button{
 	width: 60%;
 }
+
 #popular-food .food-menus .menu .bottom .button a{
 	display: inline-block;
 	color: #959595;
@@ -239,27 +287,34 @@ justify-content: space-evenly;
 	padding: 5px 10px;
 	box-sizing: border-box;
 	transition: .4s;
+	font-family: 'Open Sans', sans-serif;
 }
+
 #popular-food .food-menus .menu .bottom .icon{
 	display: flex;
 	justify-content: space-between;
 	width: 40%;
 }
+
 #popular-food .food-menus .menu .bottom .icon i{
 	margin-right: 3px;
 }
+
 #popular-food .food-menus .menu:hover{
 	transform: translatey(-8%);
 }
+
 #popular-food .food-menus .menu:hover .price{
 	background: #d50c0d;
 }
+
 #popular-food .food-menus .menu .bottom .button a:hover{
 	color: #fff;
 	background: #d50c0d;
 }
+
 #popular-food .food-menus .menu .bottom .icon a:hover{
-color: #d50c0d;
+	color: #d50c0d;
 }
 						/*--================ End popular-food Part ================--*/
 
@@ -269,56 +324,68 @@ color: #d50c0d;
 #news_blog .title{
 	margin-top: -100px;
 }
+
 #news_blog{
 	margin-bottom: 100px;
 }
+
 #news_blog .blog_parts{
-width: 100%;
-padding: 20px 0;
-box-sizing: border-box;
-background: #fff;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
+
 #news_blog .blog_parts .blog{
 	width: 30%;
 	background: #fff;
 	box-shadow: 0 0 10px rgb(96 186 98 / 10%) inset, 0 0 0 #000;
 	position: relative;
 }
+
 #news_blog .blog_parts .blog:hover{
 	box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
+
 #news_blog .blog_parts .blog .picture img{
 	width: 100%;
 	opacity: .5;
 	transition: .5s;
 }
+
 #news_blog .blog_parts .blog:hover .picture img{
 	opacity: 1;
 }
+
 #news_blog .blog_parts .blog .text{
 	text-align: center;
 	padding: 30px 20px;
 }
+
 #news_blog .blog_parts .blog .text h1{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
-	font-style: italic;
 	color: #444;
 	cursor: pointer;
 	transition: .4s;
 }
+
 #news_blog .blog_parts .blog .text h1:hover{
 	color: #d50c0d;
 }
+
 #news_blog .blog_parts .blog .text p{
 	width: 230px;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
-	margin: 10px 0;
+	margin: 10px auto;
 	color: #888;
 }
+
 #news_blog .blog_parts .blog .text a{
 	display: inline-block;
 	color: #fff;
@@ -328,6 +395,7 @@ justify-content: space-around;
 	margin-top: 15px;
 	border-radius: 5px;
 	transition: .5s;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #news_blog .blog_parts .blog .text a:hover{
@@ -341,11 +409,13 @@ justify-content: space-around;
 #slider_part{
 	background: url(../images/slider.jpg) no-repeat;
 	background-size: cover;
-	padding: 100px 0;
+	padding: 50px 0 100px 0;
 }
+
 #slider_part .slider-icon{
 	text-align: center;
 }
+
 #slider_part .slider-icon i{
 	color: #fff;
 	height: 30px;
@@ -356,49 +426,62 @@ justify-content: space-around;
 	border-radius: 50%;
 	margin-bottom: 50px;
 }
+
 #slider_part .slider_details{
 	padding: 0 150px;
 	box-sizing: border-box;
 	text-align: center;
 	margin-bottom: 50px;
 }
+
 #slider_part .slider_details .slider_text{
 	padding: 20px 50px;
 	box-sizing: border-box;
 	width: 600px;
 	background: #d50c0d;
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 }
+
 #slider_part .slider_details .slider_text p strong{
 	margin-right: 5px;
 }
+
 #slider_part .slider_picture .slider_image {
 	width: 100%;
 	text-align: center;
 	align-items: center;
 	margin-right: 10px;
 }
+
 #slider_part .slider_picture .slider_image img{
 	width: 100%;
 	border-radius: 10px;
 }
+
 #slider_part .slider_picture .slider_image h3{
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 }
+
 #slider_part .slider_picture .slider_image p{
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 }
+
 .slick-dots{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 }
+
 .slick-dots li{
 	display: inline-block;
 	margin-right: 20px;
 }
+
 .slick-dots li button{
 	font-size: 0;
 	height: 20px;
@@ -407,6 +490,7 @@ justify-content: space-around;
 	background: transparent;
 	border-radius: 50%;
 }
+
 .slick-dots .slick-active button{
 	background: #fff;
 	background: 1px solid #000;
@@ -423,20 +507,26 @@ justify-content: space-around;
 	background: #888;
 	padding: 50px 0;
 }
+
 #count_part .main{
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
 }
+
 #count_part .main .items{
 	width: 20%;
 }
+
 #count_part .main .items h1{
 	color: #fff;
 	margin: 10px 0;
+	font-family: 'Open Sans', sans-serif;
 }
+
 #count_part .main .items p{
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 }
 						/*--================ End count_part Part ================--*/
 
@@ -482,6 +572,7 @@ footer .footer_title{
 }
 footer .footer_title h2{
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 18px;
 }
@@ -491,6 +582,7 @@ footer .footer_parts .part .details{
 }
 footer .footer_parts .part .details ul .locations_and_cuisines a li{
 	color: #cdcdcd;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	transition: .5s;
@@ -511,6 +603,7 @@ footer .footer_parts .part .details .menu i{
 
 footer .footer_parts .part .details ul .menu a li{
 	color: #cdcdcd;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	transition: .5s;
@@ -542,20 +635,20 @@ footer .footer_parts .part .details .information .information_icon i:hover{
 	color: #d50c0d;
 }
 footer .footer_parts .part .details .information .contact{
-	margin-bottom: 20px;
+	align-items: center;
+	margin-bottom: 15px;
 	display: flex;
 	transition: .4s;
 }
-footer .footer_parts .part .details .information .contact .contact_text{
-	align-items: center;
-}
+
 footer .footer_parts .part .details .information .contact .contact_icon i{
 	height: 30px;
 	width: 30px;
 	line-height: 30px;
 	background: #d50c0d;
 	text-align: center;
-	margin-right: 10px;
+	margin-top: 10px;
+	margin-right: 15px;
 	margin-bottom: 10px;
 	border-radius: 5px;
 	transition: .4s;
@@ -570,6 +663,7 @@ footer .footer_parts .part .details .information .contact:hover i{
 }
 footer .footer_parts .part .details .information .contact .contact_text p{
 	color: #cdcdcd;
+	font-family: 'Open Sans', sans-serif;
 }
 						/*--================ End Footer Part ================--*/
 
@@ -588,6 +682,7 @@ footer .footer_parts .part .details .information .contact .contact_text p{
 	justify-content: space-between;
 }
 #copyright p{
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 }

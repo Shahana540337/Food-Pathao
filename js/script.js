@@ -6,6 +6,7 @@ $(".slider_picture").slick({
 	slidesToShow: 3,
 	slidesToScroll: 1,
 	autoplay: true,
+	asNavFor:".slider_details",
 });
 $(".slider_details").slick({
 	dots: false,
@@ -15,6 +16,7 @@ $(".slider_details").slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	autoplay: true,
+	asNavFor:".slider_picture",
 });
  $('.counter').counterUp({
 	delay: 10,
